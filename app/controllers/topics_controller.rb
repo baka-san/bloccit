@@ -18,7 +18,7 @@ class TopicsController < ApplicationController
     @topic.public = params[:topic][:public]
 
     if @topic.save
-      redirect_to@topic, notice: "Topic was saved successfully."
+      redirect_to @topic, notice: "Topic was saved successfully."
     else
       flash.now[:alert] = "Error creating topic. Please try again."
       render :new
@@ -38,7 +38,7 @@ class TopicsController < ApplicationController
 
      if @topic.save
         flash[:notice] = "Topic was updated."
-       redirect_to @topic
+       redirect_to @topicil
      else
        flash.now[:alert] = "Error saving topic. Please try again."
        render :edit
