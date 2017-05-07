@@ -56,6 +56,14 @@ topics = Topic.all
    password: 'helloworld'
  )
 
+ # Create first user
+ user = User.first
+ user.update_attributes!(
+   name: 'Kasey',
+   email: 'kaseycm@gmail.com',
+   password: 'helloworld'
+ )
+
  puts "Seed finished"
  puts "#{User.count} users created"
  puts "#{Topic.count} topics created"
