@@ -6,7 +6,7 @@
        submitted <%= time_ago_in_words(@post.created_at) %> ago by <%= @post.user.name %>
      </small>
    </h1>
- </div>
+</div>
 
  <div class="row">
    <div class="col-md-8">
@@ -35,5 +35,8 @@
          </small>
        </div>
      </h3>
+     <% if current_user %>
+       <%= render partial: 'favorites/favorite', locals: { post: @post } %>
+     <% end %>
    </div>
  </div>
