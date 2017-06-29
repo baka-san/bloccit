@@ -6,7 +6,7 @@ Users can sign up, create posts, comment on posts, vote on posts, favorite posts
 
 See a demo version here: https://lit-tundra-59330.herokuapp.com/
 
-This app was created as part of the [Bloc](https://www.bloc.io/web-developer-career-track) Full Stack Web Development apprenticeship program.
+This app was created as part of the [Bloc Full Stack Web Development apprenticeship program](https://www.bloc.io/web-developer-career-track).
 
 ## Project Objectives
 
