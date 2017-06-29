@@ -6,8 +6,6 @@ Users can sign up, create posts, comment on posts, vote on posts, favorite posts
 
 [Demo Site](https://lit-tundra-59330.herokuapp.com/)
 
-This app was created as part of the [Bloc Full Stack Development Apprenticeship Program](https://www.bloc.io/web-developer-career-track).
-
 ## Project Objectives
 
 - Users can sign up for a free account by providing a user name, password and email
